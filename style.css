@@ -1,0 +1,25 @@
+body{font-family:"Arial Unicode MS";}
+#chess {display:block; width:800px; height:800px; border:1px solid #999; margin:0 auto;}
+
+#chess .square {width:100px; height:100px; display:block; float:left;}
+.square.white {background:#fff;}
+.square.black {background:#ccc;}
+
+#chess .square > span {display:inline-block; width:100px; height:100px; line-height:100px; text-align:center; font-size:75px;}
+#chess .square > span:hover {cursor:pointer;}
+
+/* white pieces */
+.♙ {} /*  pawn */
+.♖ {} /*  rook */
+.♘ {} /*  knight */
+.♗ {} /*  bishop */
+.♔ {} /*  king */
+.♕ {} /*  queen */
+
+/* black pieces */
+.♟ {} /*  pawn */
+.♜ {} /*  rook */
+.♞ {} /*  knight */
+.♝ {} /*  bishop */
+.♚ {} /*  king */
+.♛ {} /*  queen */
